@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+
+.wrapper {
+    width: 100%;
+    margin: 1.5rem;
+   
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 6vh;
+    background-color: #f4f4f4;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    align-items: center;
+  }
+
+
+.links{
+    display: contents;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 0rem;
+}
+
+.links a {
+    
+    color: rgb(0, 215, 0);
+    text-align: right;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+    
+}
+
+.links li {
+    list-style: none;
+    justify-content:center;
+    color: rgb(0, 215, 0);
+    font-family: Inter;
+    font-size: 1.5rem;
+    margin-top: 0;
+
+}
+
+
+.contact {
+    margin-bottom: 2.5rem;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 2.5px;
+    background-color: rgb(61, 61, 61);
+    margin: 5px;
+}
+  
+.name{
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: 1300;
+    margin-top: 0rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgb(0, 215, 0);
+    
+}
+
+.linksplacement {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.img-banner {
+    display: none;
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: Inter;
+    font-size: 50px;
+    color: black;
+    line-height: 44px;
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: Inter;
+    font-size: 20px;
+    color: black;
+    line-height: 24px;
+}
+
+.img-me{
+    width: 25%;
+    margin-top: 40px;
+    float: left;
+}
+
+.text {
+    font-size: 1.1rem;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+    margin-top: 90px;
+    width: 75%;
+    float: right;
+    text-align: justify;
+}
+
+
+.img-project {
+    width: 50%;
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+}
+
+.img-nidum-start{
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+
+.img-nidum{
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+}
+
+.img-nidum-end{
+    width: 100%;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
+
+.text-end {
+    font-size: 1rem;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.text-tal {
+    font-size: 1rem;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+    padding-top: 1.9rem;
+}
+
+.about{
+    font-size: 0.91 rem;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+}
+
+.green-text{
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+}
+
+.title{
+    color: rgb(0, 215, 0);
+    font-size: 1.6rem;
+    font-family: Inter;
+}
+
+audio{
+   padding-top: 2rem;
+   padding-bottom: 1.2rem;
+}
+
+video{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.footer{
+    display: none; /* visszaterek ra majd */
+  position: static;
+  font-family: Inter;
+  font-size:small;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(61, 61, 61);
+  text-align: left;
+  padding-top: 3rem;
+  margin: 0rem;
+}
+
+.credit{
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    color: rgb(61, 61, 61);
+    font-family: Inter;
+    padding-bottom: 3rem;
+}
+
+  
+
+
+@media screen and (max-width:768px){
+    body{
+        
+        overflow-x: hidden;
+        
+    }
+
+    .img-project{
+        width: 100%;
+    }
+
+    .nav{
+        border-top: 1px  solid rgb(61, 61, 61);
+        border-bottom: 1px  solid rgb(61, 61, 61);
+        align-items: center;
+        margin-left: -1.5rem ;
+        margin-right: -1.5rem; /* a navnal levettem a wrapper marginjat hogy a border kifusson*/
+    }
+
+    .name{
+        margin-left: 20px;
+        
+    }
+
+    .green{
+        margin-right: 13px;
+      
+    }
+
+    .img-me{
+        width: 77%;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: block;
+        align-items: center;
+    }
+    
+    .text {
+        font-size: 1.1rem;
+        color: rgb(61, 61, 61);
+        font-family: Inter;
+        margin-top: 10px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .links{
+        display: none;
+        position: absolute;
+        right: 0vh;
+        height: 73vh; /*milyen magas a nav*/
+        top: 9.2vh;
+        background-color: #f4f4f4;
+        flex-direction: column;
+        text-align: right;
+        margin: 0rem;
+        margin-top: 2rem;
+        margin-right:0px;
+        width: 62%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        border-top: 1px  solid rgb(61, 61, 61);
+        border-left: 1px  solid rgb(61, 61, 61);
+        border-bottom: 1px  solid rgb(61, 61, 61);
+    }
+
+
+    .links li {
+        opacity: 0;
+        border-top: 1px  solid rgb(61, 61, 61);
+        padding-top: 17px;
+        padding-bottom: 17px;
+
+        /* ezek a menupontok kozotti vonalak es space */
+        
+    }
+    
+    .links li:first-child {
+        border-top: 0px  solid rgb(61, 61, 61);
+        /* pupa obt fele nem kell vonal */
+    }
+
+    .links li:last-child {
+        padding-bottom: 40px  solid rgb(61, 61, 61);
+        /* contactnal space */
+    }
+    
+    }
+
+
+   
+
+    .burger{
+        display: block;
+    }
+
+    
+.nav-active{
+    transform: translateX(0%);
+    display: block; /*amire a nac-active (js) vonatkozik vagyis a links-t fogja displayelni, 
+                    felülírja a korábbi links:display:nonet!!*/
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+    
